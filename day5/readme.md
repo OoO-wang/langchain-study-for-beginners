@@ -17,7 +17,10 @@
 
 详细请看示例代码
 
+### PIIMiddleware（Personally Identifiable Information）
+主要用于处理个人身份信息的middleware，避免个人信息暴露给模型导致信息泄漏，PIIMiddleware会对信息进行特殊处理，再传给模型
 
+详见示例
 
 
 
